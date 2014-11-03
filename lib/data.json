@@ -1,0 +1,12 @@
+{
+    "recipe_list": {
+        "regexp": "<a target=\"_blank\" href=\"(.+?)\" title=\"(.+?)\"> <img width=\"120\" height=\"90\" class=\"imgLoad\" src=\"http://static.meishichina.com/v6/img/blank.gif\"  data-src=\"(.+?)\" alt=\"(?:.+?)\" ></a>",
+        "url": "http://home.meishichina.com/recipe-list-page-{page}.html"
+    },
+    "recipe_item": {
+        "url": "http://home.meishichina.com/recipe-{id}.html",
+        "id_regexp": "recipe-(.+?)\\.html",
+        "img_regexp": "var J_photo = (.+?);",
+        "text_regexp": "var J_photo_step = (.+?);"
+    }
+}
